@@ -1,0 +1,44 @@
+{
+	"name": "hash-generator",
+	"displayName": "hash-generator",
+	"description": "Generate a random has value",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.38.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.genhash"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"keybindings": {
+			"command": "extension.genhash",
+			"key": "ctrl+h",
+			"mac": "cmd+h",
+			"when": "editorTextFocus"
+		},
+		"commands": [
+			{
+				"command": "extension.genhash",
+				"title": "Generate a random hash value"
+			}
+		]
+	},
+	"scripts": {
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^5.2.6",
+		"@types/node": "^10.12.21",
+		"@types/vscode": "^1.38.0",
+		"eslint": "^5.13.0",
+		"glob": "^7.1.4",
+		"mocha": "^6.1.4",
+		"typescript": "^3.3.1",
+		"vscode-test": "^1.2.0"
+	}
+}
