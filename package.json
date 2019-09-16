@@ -2,7 +2,7 @@
 	"name": "hash-generator",
 	"displayName": "hash-generator",
 	"description": "Generate a random has value",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"engines": {
 		"vscode": "^1.38.0"
 	},
