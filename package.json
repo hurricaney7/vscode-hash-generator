@@ -6,6 +6,7 @@
 	"engines": {
 		"vscode": "^1.38.0"
 	},
+	"publisher": "Oliver",
 	"categories": [
 		"Other"
 	],
